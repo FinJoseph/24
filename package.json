@@ -9,6 +9,8 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "vite"
+
+
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
