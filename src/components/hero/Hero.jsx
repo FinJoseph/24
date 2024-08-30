@@ -62,7 +62,7 @@ const sliderVariants ={
                        <motion.button variants={textVariants}>Conctact</motion.button>
                        <motion.button variants={textVariants}>Service</motion.button>
                  </motion.div>
-                 <motion.img variants={textVariants}  animate="scrollButton" src="/scroll.png" alt="" />
+                 <motion.img variants={textVariants}  animate="scrollButton" src="/24/scroll.png" alt="" />
              </motion.div>
          </div>
 
@@ -70,7 +70,7 @@ const sliderVariants ={
             Bienvenue sur MYFolio
          </motion.div>
          <div className="imageContainer">
-            <img src="/24/hero1.svg" alt="" />
+            <img src="/24/hero1.png" alt="" />
 
          </div>
     </div>

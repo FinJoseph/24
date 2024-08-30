@@ -7,7 +7,7 @@ const items = [
     {
         id:4,
         title:"Jeux Bibilava",
-        img:"/bibilava.png",
+        img:"/24/bibilava.png",
         desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab placeat tempora maxime, facilis repellat debitis ipsam labore expedita cumque, quae laudantium. Similique quasi sequi sunt odit voluptates maxime dolorem! Delectus!",
         link:"http://jeux-bibilava.s3-website.eu-north-1.amazonaws.com/game.html"
     },
@@ -15,7 +15,7 @@ const items = [
     {
         id:1,
         title:"My Folio",
-        img:"/projet1.png",
+        img:"/24/projet1.png",
         desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab placeat tempora maxime, facilis repellat debitis ipsam labore expedita cumque, quae laudantium. Similique quasi sequi sunt odit voluptates maxime dolorem! Delectus!",
         link:"http://localhost:5173/#Accueil"
     },
@@ -23,14 +23,14 @@ const items = [
     {
         id:2,
         title:"Projet2",
-        img:"/projet.png",
+        img:"/24/projet.png",
         desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab placeat tempora maxime, facilis repellat debitis ipsam labore expedita cumque, quae laudantium. Similique quasi sequi sunt odit voluptates maxime dolorem! Delectus!",
     },
 
     {
         id:3,
         title:"Projet3",
-        img:"/projet.png",
+        img:"/24/projet.png",
         desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab placeat tempora maxime, facilis repellat debitis ipsam labore expedita cumque, quae laudantium. Similique quasi sequi sunt odit voluptates maxime dolorem! Delectus!",
     },
 

@@ -51,7 +51,7 @@ const Service = () => {
 
         <motion.div className="titleContainer" variants={variants}>
             <div className="title">
-                <img src="/people.webp" alt="" />
+                <img src="/24/people.webp" alt="" />
                 <h1>
                     <motion.b whileHover={{color:"green"}}>Des solutions </motion.b>  pour 
                 </h1>
