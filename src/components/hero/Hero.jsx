@@ -70,7 +70,7 @@ const sliderVariants ={
             Bienvenue sur MYFolio
          </motion.div>
          <div className="imageContainer">
-            <img src="/hero1.svg" alt="" />
+            <img src="/24/hero1.svg" alt="" />
 
          </div>
     </div>
