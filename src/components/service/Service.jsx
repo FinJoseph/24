@@ -66,30 +66,31 @@ const Service = () => {
 
         <motion.div className="listeContainer" variants={variants}>
             <motion.div className="box" whileHover={{background:"lightgray" , color:" black" }}>
-                <h2> Service1</h2>
+                <h2> Développement web</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui aliquid saepe dolorem distinctio dolore commodi officiis laudantium aut asperiores, illo ullam, magni ex, at ut iste minima debitis. Exercitationem.
+                    
+                Je conçois et développe des sites web modernes et responsifs, adaptés à vos besoins spécifiques. De la création de pages statiques à la mise en place de sites dynamiques, j'assure une expérience utilisateur optimale sur toutes les plateformes.
                 </p>
                 <button>Voir</button>
             </motion.div>
             <motion.div className="box" whileHover={{background:"lightgray" , color:" black" }}>
-                <h2> Service2</h2>
+                <h2> Prototypage</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui aliquid saepe dolorem distinctio dolore commodi officiis laudantium aut asperiores, illo ullam, magni ex, at ut iste minima debitis. Exercitationem.
+                Je réalise des prototypes interactifs pour vous permettre de visualiser et tester vos idées avant leur mise en production. Cette étape cruciale vous aide à affiner les fonctionnalités et l'ergonomie de vos projets.
                 </p>
                 <button>Voir</button>
             </motion.div>
             <motion.div className="box" whileHover={{background:"lightgray" , color:" black" }}>
-                <h2> Service3</h2>
+                <h2> E-marketing</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui aliquid saepe dolorem distinctio dolore commodi officiis laudantium aut asperiores, illo ullam, magni ex, at ut iste minima debitis. Exercitationem.
+                Je vous aide à maximiser votre présence en ligne grâce à des stratégies de e-marketing efficaces. De l'optimisation des moteurs de recherche (SEO) à la gestion des campagnes publicitaires, j'améliore votre visibilité et atteins vos cibles.
                 </p>
                 <button>Voir</button>
             </motion.div>
             <motion.div className="box" whileHover={{background:"lightgray" , color:" black" }}>
-                <h2> Service4</h2>
+                <h2> Accompagnement de projets numériques</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda qui aliquid saepe dolorem distinctio dolore commodi officiis laudantium aut asperiores, illo ullam, magni ex, at ut iste minima debitis. Exercitationem.
+                J'offre un accompagnement personnalisé pour vos projets numériques, de la phase de conception à la réalisation finale. Mon objectif est de vous guider à chaque étape, en assurant le bon déroulement et le succès de vos initiatives.
                 </p>
                 <button>Voir</button>
             </motion.div>
