@@ -58,9 +58,9 @@ const sliderVariants ={
                  <motion.h2 variants={textVariants}>FIN JOSEPH</motion.h2>
                   <motion.h1 variants={textVariants}>Developpeur web .UI/UX designer</motion.h1>
                  <motion.div variants={textVariants} className="buttons">
-                      <motion.button variants={textVariants}>Projet</motion.button>
-                       <motion.button variants={textVariants}>Conctact</motion.button>
-                       <motion.button variants={textVariants}>Service</motion.button>
+                      <motion.button variants={textVariants} onClick={() => scrollToSection("Projet")}>Projet</motion.button>
+                       <motion.button variants={textVariants} onClick={() => scrollToSection("Contact")}>Conctact</motion.button>
+                       <motion.button variants={textVariants} onClick={() => scrollToSection("Service")}>Service</motion.button>
                  </motion.div>
                  <motion.img variants={textVariants}  animate="scrollButton" src="/24/scroll.png" alt="" />
              </motion.div>
