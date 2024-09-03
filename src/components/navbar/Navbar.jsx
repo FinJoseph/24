@@ -15,7 +15,7 @@ import Sidebar from "../sidebar/Sidebar"
             animate={{opacity:1 , scale: 1 }}
             transition={{duration:0.5 }}
 
-        >./My Folio/.
+        >fin joseph
         </motion.span>
         <div className="sociale">
             <a href="https://www.facebook.com/joseph.finfanilonantenaina.1?locale=fr_FR"> <img src="/24/facebook.png" alt="" /></a>
