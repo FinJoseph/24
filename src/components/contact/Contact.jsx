@@ -29,11 +29,13 @@ const Contact = () => {
 
     const [error,setError]=useState(false);
     const [success,setSuccess]=useState(false);
+    const [loading, setLoading] = useState(false);
 
     const isInView=useInView(ref, { margin: "-100px" });
 
     const sendEmail = (e) => {
         e.preventDefault();
+        setLoading(true); // Démarrer le chargement
     
         emailjs
           .sendForm('service_sme61xb', 'template_k6e7rws', formRef.current, {
@@ -41,10 +43,12 @@ const Contact = () => {
           })
           .then(
             (result) => {
-              setSuccess(true)
+              setSuccess(true);
+              setLoading(false); // Fin du chargement
             },
             (error) => {
-                setError(true)
+                setError(true);
+                setLoading(false); // Fin du chargement
             },
           );
       };
@@ -106,7 +110,9 @@ const Contact = () => {
                 <input type="text" required placeholder="Nom" name="name"/>
                 <input type="email" required placeholder="Email"  name="email"/>
                 <textarea rows={8} placeholder="Message" name="message"/>
-                <button>Soumetre</button>
+                <button type="submit" disabled={loading}>
+                {loading ? "Chargement..." : "Soumettre"}
+                    </button>
                 {error &&  "Errur d'envoye"}
                 {success && "Envoyé"}
 
