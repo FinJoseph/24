@@ -29,9 +29,9 @@ const items = [
 
     {
         id:4,
-        title:"Projet3",
-        img:"/24/projet.png",
-        desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab placeat tempora maxime, facilis repellat debitis ipsam labore expedita cumque, quae laudantium. Similique quasi sequi sunt odit voluptates maxime dolorem! Delectus!",
+        title:"Création d'un hébergeur web avec AWS",
+        img:"/24/aws.png",
+        desc:"J'ai mis en place un service d'hébergement web en utilisant Amazon Web Services (AWS). Ce projet inclut la configuration et la gestion d'instances EC2, la configuration de serveurs web, ainsi que la gestion des domaines et certificats SSL. J'ai également optimisé la performance et la sécurité de l'hébergement, en utilisant des outils comme Amazon S3 pour le stockage et CloudFront pour la distribution de contenu. Ce projet montre ma capacité à gérer des infrastructures cloud robustes et évolutives, adaptées aux besoins variés des clients.",
     },
 
    
