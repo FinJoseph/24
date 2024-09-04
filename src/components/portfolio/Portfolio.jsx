@@ -16,15 +16,16 @@ const items = [
         id:1,
         title:"My Folio",
         img:"/24/projet1.png",
-        desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab placeat tempora maxime, facilis repellat debitis ipsam labore expedita cumque, quae laudantium. Similique quasi sequi sunt odit voluptates maxime dolorem! Delectus!",
+        desc:"Ce portfolio est le reflet de mon parcours et de mes compétences en développement web et en design numérique. J'ai conçu et développé ce site pour mettre en avant mes projets, mes réalisations, et mes services. L'interface est pensée pour offrir une navigation fluide et agréable, tout en étant entièrement responsive pour s'adapter à tous les types d'écrans. Ce projet témoigne de ma maîtrise des technologies front-end modernes, ainsi que de mon souci du détail et de l'expérience utilisateur.",
         link:"http://localhost:5173/#Accueil"
     },
 
     {
         id:2,
         title:"Projet2",
-        img:"/24/projet.png",
-        desc:"Ce portfolio est le reflet de mon parcours et de mes compétences en développement web et en design numérique. J'ai conçu et développé ce site pour mettre en avant mes projets, mes réalisations, et mes services. L'interface est pensée pour offrir une navigation fluide et agréable, tout en étant entièrement responsive pour s'adapter à tous les types d'écrans. Ce projet témoigne de ma maîtrise des technologies front-end modernes, ainsi que de mon souci du détail et de l'expérience utilisateur.",
+        img:"/24/art.png",
+        desc:"J'ai conçu et développé un site vitrine entièrement en HTML et CSS pour mettre en valeur les produits artisanaux malagasy. Ce site se distingue par son design épuré et son interface intuitive, permettant aux visiteurs de découvrir les richesses de l'artisanat malagasy. Les pages sont optimisées pour une navigation fluide et une présentation claire des produits, offrant une expérience utilisateur agréable. Ce projet démontre ma capacité à créer des sites esthétiques et fonctionnels, tout en mettant en avant la culture et les produits locaux..",
+        link:"https://finjoseph.github.io/art-malagasy/"
     },
 
     {
